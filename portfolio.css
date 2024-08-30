@@ -23,5 +23,29 @@
 }
 .posters{
     display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+
+}
+h1.p{
+    padding: 10px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+    font-size: 40px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 90px;
+    font-size: 25px;
 }
 
