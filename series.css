@@ -18,22 +18,24 @@ body{
 
 
 }
- .bannercontent .banner-title image{
+ .bannercontent .banner-title img{
     object-fit: contain;
     max-width:35%;
 }
 .bannercontent{
     padding: 15% 10%;
 }
-.bannercontent .banner-title h1{
+.bannercontent .banner-title h2{
     font-size:30px;
-    padding: 10px 0px;
+    margin: 20px 0px ;
+    
 }
-.bannercontent .banner-title span{
-    padding: 0 5px;
+.info{
+    color: #a3a3a3;
+   
 }
-.bannercontent .banner-title ua{
-    border: 2px solid#a3a3a3;
+.ua{
+    border: 1px solid#a3a3a3;
     padding: 4px 8px ;
 }
 .bannercontent .banner-title p{
