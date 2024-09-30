@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightcyan;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 10px ;
+    
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 100px;
+    padding-top: 10%;
+}
+nav .create {
+    display: flex;
+    margin: 10px 20px;
+
+}
+nav .create .info{
+    background-color: lightcoral;
+    color:white;
+    padding: 9px 24px ;
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+nav .create .info:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8ms;
+}
+nav .create .sign {
+    background-color:lightcoral ;
+    color:white;
+    padding: 9px 24px ;
+    border: 1px solid white;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+nav .create .sign:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8ms;
+}
+nav .create .signs {
+    background-color:lightcoral ;
+    color:white;
+    padding: 9px 24px ;
+    border: 1px solid white;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+nav .create .signs:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8ms;
+}
+nav .create .lil {
+    background-color: lightcoral;
+    color:white;
+    padding: 9px 24px ;
+    border: 1px solid white;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+
+nav .create .lil:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8ms;
+}
+nav .create .fav {
+    background-color: lightcoral;
+    color:white;
+    padding: 9px 24px ;
+    border: 1px solid white;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+nav .create .fav:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8ms;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    
+ }
+ .box1{
+     border: 2px solid white;
+     background-color:white;
+     color: black;
+     max-width: 30%;
+     margin: 10px;
+     transition: transform 340;
+ }
+ .box2{
+     border: 2px solid white;
+     background-color:white;
+     color: black;
+     max-width: 30%;
+     margin: 10px;
+     transition: transform 340;
+ }
+ .box3{
+     border: 2px solid white;
+     background-color:white;
+     color: black;
+     max-width: 30%;
+     margin: 10px;
+     transition: transform 340;
+ }
+ .cards .box1:hover{
+     transform: scale(1.1);
+ }
+ .cards .box2:hover{
+     transform: scale(1.1);
+ }
+ .cards .box3:hover{
+     transform: scale(1.1);
+ }
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5%;
+    float: left;
+    
+
+    
+ }
+ 
+ 
+ .option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .texts{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5%;
+    float: left;
+    
+    
+ }
+ .options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .test{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5%;
+    float: left;
+    
+    
+ }
+ .men{
+    color: lightcoral;
+    font-size: 25px;
+
+ }
+ .mens{
+    color: lightcoral;
+    font-size: 25px;
+
+ }
+ 
+ .pet{
+    font-size: 25px;
+    color:palevioletred;
+
+   }
+   .pets{
+    font-size: 25px;
+    color:lightcoral ;
+    
+   }
+   .pen{
+    font-size: 25px;
+    color:lightcoral 
+   }
+   .sem{
+    font-size: 25px;
+    color:lightcoral 
+   }
+ 
+ 
