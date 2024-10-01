@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #111;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heart{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 20px 90px red;
+    animation: he 2s linear infinite;
+    left: 18%;
+    top: 18%;
+    z-index: 1;
+}
+.heart::before{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    top: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    animation: he 2s linear infinite;
+}
+.heart::after{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    right: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50%; 
+    animation: he 2s linear infinite;
+}
+@keyframes he{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.02);
+    }
+}
+.circle{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+    animation: cir 5s linear infinite;
+    left: 670px;
+    position: absolute;
+    
+}
+@keyframes cir{
+     from{
+        transform: rotate(0);
+     }
+     to{
+        transform: rotate(360);
+        background-color: skyblue;
+        transition: 2s;
+
+     }
+}
+.rectangle{
+    width:580px;
+    height: 580px;
+    background-color:  pink;
+    animation: rec 3s linear infinite;
+
+}
+@keyframes cir{
+    from{
+        border: 2px solid skyblue;
+
+    }
+    to{
+        border: 2px solid red;
+    }
+}
+@keyframes he{
+    from{
+        background-color: #111;
+    }
+    to{
+        background-color: red;
+    }
+}
+@keyframes rec{
+    from{
+        transform: rotate(0deg);
+        background-color: blue;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: transparent;
+    }
+}
+
+
